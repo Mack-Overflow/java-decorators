@@ -1,6 +1,6 @@
-public class StreamOutputImple implements StreamOutput
+public class StreamOutputImpl implements StreamOutput
 {
-    @override
+    @Override
     public String decorate()
     {
         return "Decorated StreamOutput";

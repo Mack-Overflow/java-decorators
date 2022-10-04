@@ -3,10 +3,12 @@ import java.io.*;
 class StreamOutput implements Output {
     private Writer sink;
     private Output output;
+    
     public StreamOutput(Writer stream) {
         sink = stream;
     }
-    @override
+
+    @Override
     public void write(Object o) {
         writeString(o.toString());
     }
